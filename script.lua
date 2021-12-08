@@ -20,7 +20,7 @@ b:Toggle(
         if bool == true then
             local args = {
                 [1] = "DropMoney",
-                [2] = "1000"
+                [2] = "10000"
             }
 
             game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
