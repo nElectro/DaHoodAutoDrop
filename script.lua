@@ -9,9 +9,9 @@ local UserInputService = game:GetService("UserInputService")
 
 local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua")))()
 
-local w = library:CreateWindow("AutoDrop - Da Hood") -- Creates the window
+local w = library:CreateWindow("AutoDrop - Da Hood")
 
-local b = w:CreateFolder("Options") -- Creates the folder(U will put here your buttons,etc)
+local b = w:CreateFolder("Options") 
 
 b:Toggle(
     "Toggle",
