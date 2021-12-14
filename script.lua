@@ -1,3 +1,8 @@
+--[[
+I'm not gonna obfuscate it lol
+Lazy Script ngl didn't even tested it
+]]--
+
 getgenv().Autodrop = false
 
 local FrameObject = game.Players.LocalPlayer
