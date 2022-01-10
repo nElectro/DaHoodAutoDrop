@@ -22,7 +22,7 @@ b:Toggle(
     "Toggle",
     function(bool)
         getgenv().Autodrop = bool
-        if bool == true then
+        while bool == true do
             local args = {
                 [1] = "DropMoney",
                 [2] = "10000"
